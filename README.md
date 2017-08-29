@@ -1,5 +1,5 @@
-# iOS1
-0句代码实现UIImageview点击放大，就是so cool
+# 0句代码实现UIImageview点击放大，就是so cool
+
 
 使用方法：
 
