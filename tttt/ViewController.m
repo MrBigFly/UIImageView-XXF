@@ -17,10 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UIImageView *Huskimos=[[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 200, 100)];
-    [self.view addSubview:Huskimos];
-    Huskimos.image=[UIImage imageNamed:@"1.jpg"];
-    
+    UIImageView *peiyin=[[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 200, 100)];
+    [self.view addSubview:peiyin];
+    peiyin.image=[UIImage imageNamed:@"1.jpg"];
+    [peiyin setGesture];
     
     [_imgV setGesture];
     

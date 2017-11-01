@@ -18,8 +18,8 @@ static CGRect originFrame; // 用于记录imageView本来的frame
     self = [super initWithFrame:frame];
     if (self) {
         // 为UIImageView添加点击事件
-        UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(imageViewClickAction :)];
-        [self addGestureRecognizer:tap];
+//        UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(imageViewClickAction :)];
+//        [self addGestureRecognizer:tap];
     }
     return self;
 }
